@@ -1,0 +1,26 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Modelos pesados
+*.pt
+
+# Imágenes locales
+imagenes/*
+!imagenes/.gitkeep
