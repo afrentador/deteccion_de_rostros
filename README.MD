@@ -42,6 +42,7 @@ deteccion_de_rostros/
 ├── .gitignore
 └── yolov8m-pose.pt        # Modelo descargado localmente
 
+
 ## 📈 Próximos Pasos (Enfoque Analítico)
 - [ ] **Persistencia de Datos:** Integrar una base de datos relacional (SQLite) para registrar variables de cada detección (ID, timestamp, distancia euclidiana calculada y nivel de confianza).
 - [ ] **Módulo de Analítica:** Desarrollar un script en **Pandas** y **Matplotlib** para analizar los patrones de asistencia, horas pico de detección y métricas de rendimiento del modelo.
